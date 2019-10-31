@@ -1,0 +1,5 @@
+{
+  "示例级别": "primary",
+  "项目级别 (mysql)": "project",
+  "项目级别+ (mysql, redis)": "projectPlus"
+}
