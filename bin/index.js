@@ -72,7 +72,7 @@ program
 
 program
   .command('bulk <bulk-name>')
-  .description('添加模型, 服务，控制器')
+  .description('一键添加模型, 服务，控制器, 路由')
   .action(async (name, destination) => {
     if (check('model', name)) return;
     if (check('service', name)) return;
