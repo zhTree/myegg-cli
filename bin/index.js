@@ -77,9 +77,11 @@ program
     if (check('model', name)) return;
     if (check('service', name)) return;
     if (check('controller', name)) return;
+    if (check('router', name)) return;
     addFile('model', name);
     addFile('service', name);
     addFile('controller', name);
+    addFile('router', name);
   });
 
 program.on('help', () => {
