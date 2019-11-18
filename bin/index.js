@@ -63,6 +63,14 @@ program
   });
 
 program
+  .command('router <router-name>')
+  .description('添加路由')
+  .action(async (name, destination) => {
+    if (check('router', name)) return;
+    await addFile('router', name);
+  });
+
+program
   .command('bulk <bulk-name>')
   .description('添加模型, 服务，控制器')
   .action(async (name, destination) => {
