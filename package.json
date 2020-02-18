@@ -1,6 +1,6 @@
 {
   "name": "@qtt/egg-cli",
-  "version": "0.0.10",
+  "version": "0.0.11",
   "description": "趣头条egg.js脚手架",
   "main": "index.js",
   "bin": {
